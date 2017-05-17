@@ -1,0 +1,38 @@
+{
+  "name": "hl-engine",
+  "version": "1.0.0",
+  "description": "task coordinator engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hulago/hl-engine.git"
+  },
+  "keywords": [
+    "rxjs",
+    "postgres",
+    "redis",
+    "lock",
+    "table"
+  ],
+  "author": "Hugo Lago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hulago/hl-engine/issues"
+  },
+  "homepage": "https://github.com/Hulago/hl-engine#readme",
+  "dependencies": {
+    "knex": "^0.13.0",
+    "rxjs": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/knex": "^0.0.50",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.18",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  }
+}
